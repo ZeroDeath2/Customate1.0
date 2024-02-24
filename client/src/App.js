@@ -26,7 +26,7 @@ function App() {
     const fetchForSum = async () => { 
       try {
         // Replace 'your_table_name' with the name of your Supabase table
-        const { data, error } = await supabase.from('buffer').select().order.limit(1);
+        const { data, error } = await supabase.from('buffer').select().order('created_at', { ascending: true }).limit(1);
         console.log(data+"last row");
         if (error) {
           throw error;
