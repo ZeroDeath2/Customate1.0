@@ -21,5 +21,7 @@ This project is a comprehensive solution for call center automation, leveraging 
 ## Installation
 
 1. Clone the repository
+   
 2.npm create-next-app
+
 3.npm i packages
