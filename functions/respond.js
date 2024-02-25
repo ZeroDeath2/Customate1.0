@@ -57,7 +57,7 @@ exports.handler = async function (context, event, callback) {
         const apiResponse = await openai.completions.create({
             model: "davinci-002", // 'model' has been changed to 'engine' in the latest OpenAI API
             prompt: presetPrompt + convo,
-            max_tokens: 80,
+            max_tokens: 700,
             temperature: 0.8,
             stop: ['\n', '\n\n'],
         });
