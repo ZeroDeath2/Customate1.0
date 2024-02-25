@@ -19,7 +19,6 @@ This project is a comprehensive solution for call center automation, leveraging 
 - [Twilio Account](https://www.twilio.com/): Sign up for a Twilio account and obtain your Account SID, Auth Token, and phone numbers for integration.
 
 ## Installation
-
 1. Clone the repository
    
 2.npm create-next-app
